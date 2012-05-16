@@ -1,0 +1,12 @@
+Why couldn’t we animate the backgroundColor property of a UIView in iOS 5.0?
+See exercise #5 in http://i5.nyu.edu/~mm64/INFO1-CE9236/src/animate.html
+
+I've recreated exercise #5 with the following environmental settings:
+ - Mac OSX Version 10.7.3 (11D50)
+ - Xcode Version 4.3.1 (4E1019)
+ - Project's iOS Deployment Target: 5.0
+ - iPhone 5.1 Simulator
+
+Results:
+Could not reproduce the issue with the deployment target explicitly set to 5.0.
+Maybe it was a bug on the version of the iPhone Simulator that we were using? Maybe version 5.1 of the simulator fixed the issue?
