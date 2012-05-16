@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42C5834115638FAA009AF908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5834015638FAA009AF908 /* UIKit.framework */; };
+		42C5834315638FAA009AF908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5834215638FAA009AF908 /* Foundation.framework */; };
+		42C5834515638FAA009AF908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5834415638FAA009AF908 /* CoreGraphics.framework */; };
+		42C5834B15638FAA009AF908 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42C5834915638FAA009AF908 /* InfoPlist.strings */; };
+		42C5834D15638FAA009AF908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5834C15638FAA009AF908 /* main.m */; };
+		42C5835115638FAB009AF908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5835015638FAB009AF908 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42C5833C15638FAA009AF908 /* ViewAnimationColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewAnimationColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C5834015638FAA009AF908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42C5834215638FAA009AF908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42C5834415638FAA009AF908 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42C5834815638FAA009AF908 /* ViewAnimationColor-Info.plist */ = {isa = PBXFileReference; path = "ViewAnimationColor-Info.plist"; sourceTree = "<group>"; };
+		42C5834A15638FAA009AF908 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42C5834C15638FAA009AF908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42C5834E15638FAB009AF908 /* ViewAnimationColor-Prefix.pch */ = {isa = PBXFileReference; path = "ViewAnimationColor-Prefix.pch"; sourceTree = "<group>"; };
+		42C5834F15638FAB009AF908 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		42C5835015638FAB009AF908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C5833915638FAA009AF908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C5834115638FAA009AF908 /* UIKit.framework in Frameworks */,
+				42C5834315638FAA009AF908 /* Foundation.framework in Frameworks */,
+				42C5834515638FAA009AF908 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C5833115638FAA009AF908 = {
+			isa = PBXGroup;
+			children = (
+				42C5834615638FAA009AF908 /* ViewAnimationColor */,
+				42C5833F15638FAA009AF908 /* Frameworks */,
+				42C5833D15638FAA009AF908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C5833D15638FAA009AF908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C5833C15638FAA009AF908 /* ViewAnimationColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C5833F15638FAA009AF908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C5834015638FAA009AF908 /* UIKit.framework */,
+				42C5834215638FAA009AF908 /* Foundation.framework */,
+				42C5834415638FAA009AF908 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42C5834615638FAA009AF908 /* ViewAnimationColor */ = {
+			isa = PBXGroup;
+			children = (
+				42C5834F15638FAB009AF908 /* AppDelegate.h */,
+				42C5835015638FAB009AF908 /* AppDelegate.m */,
+				42C5834715638FAA009AF908 /* Supporting Files */,
+			);
+			path = ViewAnimationColor;
+			sourceTree = "<group>";
+		};
+		42C5834715638FAA009AF908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C5834815638FAA009AF908 /* ViewAnimationColor-Info.plist */,
+				42C5834915638FAA009AF908 /* InfoPlist.strings */,
+				42C5834C15638FAA009AF908 /* main.m */,
+				42C5834E15638FAB009AF908 /* ViewAnimationColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C5833B15638FAA009AF908 /* ViewAnimationColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C5835415638FAB009AF908 /* Build configuration list for PBXNativeTarget "ViewAnimationColor" */;
+			buildPhases = (
+				42C5833815638FAA009AF908 /* Sources */,
+				42C5833915638FAA009AF908 /* Frameworks */,
+				42C5833A15638FAA009AF908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewAnimationColor;
+			productName = ViewAnimationColor;
+			productReference = 42C5833C15638FAA009AF908 /* ViewAnimationColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C5833315638FAA009AF908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 42C5833615638FAA009AF908 /* Build configuration list for PBXProject "ViewAnimationColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42C5833115638FAA009AF908;
+			productRefGroup = 42C5833D15638FAA009AF908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C5833B15638FAA009AF908 /* ViewAnimationColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C5833A15638FAA009AF908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C5834B15638FAA009AF908 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C5833815638FAA009AF908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C5834D15638FAA009AF908 /* main.m in Sources */,
+				42C5835115638FAB009AF908 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42C5834915638FAA009AF908 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C5834A15638FAA009AF908 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C5835215638FAB009AF908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42C5835315638FAB009AF908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42C5835515638FAB009AF908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewAnimationColor/ViewAnimationColor-Prefix.pch";
+				INFOPLIST_FILE = "ViewAnimationColor/ViewAnimationColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42C5835615638FAB009AF908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewAnimationColor/ViewAnimationColor-Prefix.pch";
+				INFOPLIST_FILE = "ViewAnimationColor/ViewAnimationColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C5833615638FAA009AF908 /* Build configuration list for PBXProject "ViewAnimationColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C5835215638FAB009AF908 /* Debug */,
+				42C5835315638FAB009AF908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C5835415638FAB009AF908 /* Build configuration list for PBXNativeTarget "ViewAnimationColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C5835515638FAB009AF908 /* Debug */,
+				42C5835615638FAB009AF908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C5833315638FAA009AF908 /* Project object */;
+}
