@@ -62,6 +62,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    CGRect mainViewRect = [[UIScreen mainScreen] bounds];
+    UIView *mainView = [[UIView alloc]initWithFrame:mainViewRect];
+    mainView.backgroundColor = [UIColor whiteColor];
+    
+    self.view = mainView;
+    
+    
     CGRect littleViewRect = CGRectMake(10, 10, 75, 75);
     littleView = [[UIView alloc]initWithFrame:littleViewRect];
     littleView.backgroundColor = [UIColor yellowColor];
