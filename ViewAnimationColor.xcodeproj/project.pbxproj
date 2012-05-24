@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423CAF45156DD72200F45038 /* LittleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 423CAF44156DD72200F45038 /* LittleView.m */; };
 		42C5834115638FAA009AF908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5834015638FAA009AF908 /* UIKit.framework */; };
 		42C5834315638FAA009AF908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5834215638FAA009AF908 /* Foundation.framework */; };
 		42C5834515638FAA009AF908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5834415638FAA009AF908 /* CoreGraphics.framework */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		423CAF43156DD72200F45038 /* LittleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView.h; sourceTree = "<group>"; };
+		423CAF44156DD72200F45038 /* LittleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView.m; sourceTree = "<group>"; };
 		42C5833C15638FAA009AF908 /* ViewAnimationColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewAnimationColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C5834015638FAA009AF908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42C5834215638FAA009AF908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 				42C5834715638FAA009AF908 /* Supporting Files */,
 				42C5835715638FCF009AF908 /* MainViewController.h */,
 				42C5835815638FCF009AF908 /* MainViewController.m */,
+				423CAF43156DD72200F45038 /* LittleView.h */,
+				423CAF44156DD72200F45038 /* LittleView.m */,
 			);
 			path = ViewAnimationColor;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				42C5834D15638FAA009AF908 /* main.m in Sources */,
 				42C5835115638FAB009AF908 /* AppDelegate.m in Sources */,
 				42C5835915638FCF009AF908 /* MainViewController.m in Sources */,
+				423CAF45156DD72200F45038 /* LittleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +270,7 @@
 				42C5835615638FAB009AF908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

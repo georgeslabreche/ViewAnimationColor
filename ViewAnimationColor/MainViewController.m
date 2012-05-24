@@ -35,13 +35,14 @@
 	if (touches.count > 0) {
         
         
-        
+        /*
 		[UIView animateWithDuration: 1.0
                               delay: 0.0
                             options: UIViewAnimationOptionCurveEaseInOut
                          animations: ^{
                              //This block describes what the animation should do.
                              littleView.center = [[touches anyObject] locationInView: self.view];
+                             
                              
                              if(!colourGreen){
                                  littleView.backgroundColor = [UIColor greenColor];
@@ -52,6 +53,29 @@
                              }
                          }
                          completion: NULL
+         ];*/
+        
+        fromView = littleView;
+        toView = littleView;  
+        
+        toView.alpha = 0.0;
+
+        [self.view insertSubview:toView aboveSubview:fromView];
+        
+        [UIView animateWithDuration:1.0
+                         animations:^{
+                             toView.center = [[touches anyObject] locationInView: self.view];
+                             toView.alpha = 1.0;
+                             
+                             if(!colourGreen){
+                                 toView.backgroundColor = [UIColor greenColor];
+                                 colourGreen = true;
+                             }else{
+                                 toView.backgroundColor = [UIColor yellowColor];
+                                 colourGreen = false;
+                             }
+                         }
+                         completion:NULL
          ];
 	}
 }
@@ -70,7 +94,7 @@
     
     
     CGRect littleViewRect = CGRectMake(10, 10, 75, 75);
-    littleView = [[UIView alloc]initWithFrame:littleViewRect];
+    littleView = [[LittleView alloc]initWithFrame:littleViewRect];
     littleView.backgroundColor = [UIColor yellowColor];
     
     [self.view addSubview: littleView];

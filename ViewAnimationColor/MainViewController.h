@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LittleView.h"
 
 @interface MainViewController : UIViewController{
-    UIView *littleView;
+    LittleView *littleView;
+    LittleView* fromView;
+    LittleView* toView;
     BOOL colourGreen;
 }
 
